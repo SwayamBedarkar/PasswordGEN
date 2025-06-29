@@ -1,0 +1,56 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #0f172a;
+  color: #f1f5f9;
+  margin: 0;
+}
+
+.container {
+  background: #1e293b;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  width: 300px;
+}
+
+.output {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+#password {
+  flex: 1;
+  padding: 0.5rem;
+  border-radius: 6px 0 0 6px;
+  border: none;
+  font-size: 1rem;
+}
+
+#copy {
+  padding: 0.5rem;
+  background: #0ea5e9;
+  border: none;
+  cursor: pointer;
+  border-radius: 0 6px 6px 0;
+}
+
+.settings label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+#generate {
+  margin-top: 1rem;
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  background: #22c55e;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
